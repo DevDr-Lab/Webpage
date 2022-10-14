@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="vewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <link rel="stylesheet" href="./style.css" />
+        <title>Webpage practice</title>
+    </head>
+    <body>
+        <header class="header">
+            <div class="container">
+                <h1 class="logo">
+                    <img src="https://static.djangoproject.com/img/logo-django.42234b631760.svg" alt="Django" />
+                </h1>
+                <nav class="nav">
+                    <ul class="list">
+                        <!--  (li>a)*8 -->
+                        <li class="list-item"><a href="#">Overview</a></li>
+                        <li class="list-item"><a href="#">Download</a></li>
+                        <li class="list-item"><a href="#">Documentation</a></li>
+                        <li class="list-item"><a href="#">News</a></li>
+                        <li class="list-item"><a href="#">Community</a></li>
+                        <li class="list-item"><a href="#">Code</a></li>
+                        <li class="list-item"><a href="#">About</a></li>
+                        <li class="list-item"><a href="#">Donate</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main class="main">
+            <!-- min width, max width로 크기를 맞춰준다-->
+            <div class="hero-section">
+                <div class="container">
+                    <p class="intro-desc">
+                        TEXT
+                    </p>
+                    <a href="" class=" cta hero-cta">
+                        Button
+                    </a>
+                </div>
+            </div>
+            <div class="container-float">
+                <div class="main-content">
+                    <h2 class="main-title">
+                        Main title
+                    </h2>
+                    <p class="main-desc">
+                        main text description
+                    </p>
+                    <div class="mailing-layout">
+                        <div class="mailing">
+                            <h3 class="mailing-title">
+                                <a>Mailing title</a>
+                            </h3>
+                            <p class="mailing-desc">
+                                Description1
+                            </p>
+                            <!-- form 요소 -->
+                            <form action="#" class="mailing-form">
+                                <label for="input-following">send email for following news</label>
+                                <input type="email" 
+                                placeholder="Enter email" 
+                                id="input-following" 
+                                name="input-following" />
+                                <button type="submit" class="mailing-form-btn">Submit</button>
+                                <div>
+
+                                </div>
+                            </form>
+                            
+                        </div>
+                        <div class="mailing">
+                            <h3 class="mailing-title">
+                                Mailing title2
+                            </h3>
+                            <p class="mailing-desc">
+                                Description2
+                            </p>
+                            <!-- form 요소 -->
+                            <form action="#" class="mailing-form">
+                                <label for="input-following">send email for following news</label>
+                                <input type="email" 
+                                placeholder="Enter email" 
+                                id="input-following" 
+                                name="input-following" />
+                                <button type="submit" class="mailing-form-btn">Submit</button>
+                                <div>
+
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="side-content">
+                    <div class="container-side-cta">
+                        <a href="" class="cta side-cta">
+                            Button
+                        </a>
+                        <a class="more">
+                            more
+                        </a>
+                    </div>
+                    <div class="infos-latest-news">
+                        <h2 class="infos-title">Latest news</h2>
+                        <article class="news-article">
+                            <h3 class="news-article">
+                                <a>news article</a>
+                            </h3>
+                            <p class="news-desc">news description</p>
+                            <p class="news-meta">
+                                <span>news meta</span>
+                                <time datetime="2022-10-10"></time>
+                            </p>
+                        </article>
+                        <a class="more">more news</a>
+                    </div>
+
+                    <div class="infos-get-involved">
+                        <h2 class="infos-title">Get involved</h2>
+                        <dl class="list-communities">
+                            <dt class="commutiny-title">dtdt</dt>
+                            <dd class="community-desc">dddd</dd>
+                        </dl>
+                        <a class="more">More community</a>
+                    </div>
+
+                </div>
+            </div>
+        </main>
+        <footer class="footer">FOOTER</footer>
+    </body>
+</html>
